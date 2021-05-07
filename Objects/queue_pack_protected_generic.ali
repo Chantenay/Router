@@ -1,0 +1,122 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatw.n
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwt
+A -gnatw.t
+A -gnatwu
+A -gnatw.u
+A -gnatwv
+A -gnatw.v
+A -gnatww
+A -gnatw.w
+A -gnatwx
+A -gnatw.x
+A -gnatwy
+A -gnatwz
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatE
+A -g
+A -gnata
+A -mmacosx-version-min=10.14.7
+A -mtune=core2
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_INITIALIZE_SCALARS
+RV NO_PROTECTED_TYPES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV PURE_BARRIERS
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=2
+
+U queue_pack_protected_generic%b  queue_pack_protected_generic.adb  4180675e DE NE OO PK GE
+
+U queue_pack_protected_generic%s  queue_pack_protected_generic.ads  a21fbf0c BN DE EE NE OO PK GE
+
+D queue_pack_protected_generic.ads  20201028042803 a21fbf0c queue_pack_protected_generic%s
+D queue_pack_protected_generic.adb  20201028042858 e39fd852 queue_pack_protected_generic%b
+D system.ads		20170516105953 085b6ffb system%s
+X 1 queue_pack_protected_generic.ads
+8+9 Element 17r33 18r33 29r34 2|13r29 21r33
+9M9 Index 29r24 31r19 31r30 2|17r28 25r28
+11k9*Queue_Pack_Protected_Generic 8z9 9z9 29E9 35l5 35e33 2|5b14 30l5 30t33
+13R9*Queue_Type 24r15 30c9 34e14
+15W19*Protected_Queue 24E7 26l8 26e23 2|7b19 29l8 29t23
+17Y13 Enqueue 17>22 2|13b13 19l11 19t18
+17*22 Item{8+9} 2|16r41
+18Y13 Dequeue 18<22 2|21b13 27l11 27t18
+18*22 Item{8+9} 2|24m10
+20V16 Is_Empty{boolean} 2|9b17 21s51
+21V16 Is_Full{boolean} 2|11b16 13s47
+24r7 Queue{13R9} 2|9r45 11r47 11r71 11r83 16m10 16r26 17m10 17r40 18m10 24r28
+. 24r44 25m10 25r40 26m10 26r28 26r40
+29A9 List(8+9)<9M9> 33r19
+31*7 Top{9M9} 2|11r77 24r50 25m16 25r46 26r34
+31*12 Free{9M9} 2|11r89 16r32 17m16 17r46 26r46
+32b7 Is_Empty{boolean} 2|9r51 11r53 18m16 26m16
+33a7 Elements{29A9} 2|16m16 24r34
+X 2 queue_pack_protected_generic.adb
+13*22 Item{1|8+9}
+21*22 Item{1|8+9}
+

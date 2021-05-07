@@ -1,0 +1,29 @@
+[GENERATED OBJECT FILE]
+b__test_routers.o
+[PROJECT FILES]
+/Users/harriet/Desktop/router_all/routers.gpr
+20150927050618
+[BOUND OBJECT FILES]
+/Users/harriet/Desktop/router_all/Objects/exceptions.o
+/Users/harriet/Desktop/router_all/Objects/generic_router_links.o
+/Users/harriet/Desktop/router_all/Objects/id_dispenser.o
+/Users/harriet/Desktop/router_all/Objects/queue_pack_protected_generic.o
+/Users/harriet/Desktop/router_all/Objects/reduce.o
+/Users/harriet/Desktop/router_all/Objects/topologies.o
+/Users/harriet/Desktop/router_all/Objects/routers_configuration_structures.o
+/Users/harriet/Desktop/router_all/Objects/generic_routers_configuration.o
+/Users/harriet/Desktop/router_all/Objects/generic_message_structures.o
+/Users/harriet/Desktop/router_all/Objects/generic_router.o
+/Users/harriet/Desktop/router_all/Objects/generic_routers.o
+/Users/harriet/Desktop/router_all/Objects/test_routers.o
+[GENERATED SOURCE FILES]
+b__test_routers.ads
+b__test_routers.adb
+b__test_routers.ali
+[RESULTING OPTIONS]
+-L/Users/harriet/Desktop/router_all/Objects/
+-L/Users/harriet/Desktop/router_all/Objects/
+-L/users/harriet/opt/gnat2017/lib/gcc/x86_64-apple-darwin14.5.0/6.3.1/adalib/
+-static
+/users/harriet/opt/gnat2017/lib/gcc/x86_64-apple-darwin14.5.0/6.3.1/adalib/libgnarl.a
+/users/harriet/opt/gnat2017/lib/gcc/x86_64-apple-darwin14.5.0/6.3.1/adalib/libgnat.a
